@@ -15,6 +15,8 @@ import { ProjectsComponent } from './projects/projects.component';
 //#region material
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 //#endregion
 
 @NgModule({
@@ -31,7 +33,9 @@ import {MatTabsModule} from '@angular/material/tabs';
     CommonModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSlideToggleModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
