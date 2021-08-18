@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
 body{
-    background-color: rgb(52, 8, 94);
+    background-image: linear-gradient(180deg, rgb(77, 8, 141), #000);
+    background-attachment: fixed;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
