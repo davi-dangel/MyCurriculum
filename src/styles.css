@@ -6,7 +6,7 @@
 }
 
 .light-mode:root{
-    --body-bg: linear-gradient(180deg, #d676f3, #6248f5);;
+    --body-bg: linear-gradient(180deg, #e2a4f5, #9381f7);
     --body-color: #000;
 }
 

@@ -17,6 +17,11 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatIconModule} from '@angular/material/icon';
+//#endregion
+
+//#region External
+import { SidebarModule } from 'ng-sidebar';
 //#endregion
 
 @NgModule({
@@ -35,7 +40,9 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     MatCardModule,
     MatTabsModule,
     MatSlideToggleModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatIconModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
