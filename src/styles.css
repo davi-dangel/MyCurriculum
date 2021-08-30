@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6{
     color: var(--body-color);
 }
 
+hr{
+    background-color: var(--body-color);
+}
+
 p{
     text-align: justify;
     font-size: 18px;
