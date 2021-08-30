@@ -1,29 +1,13 @@
 <header class="container">
     <div class="row p-2">
-      <div class="col-2"></div>
-      <div class="col-8">
-        <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="row justify-content-end">
           <a class="" [routerLink]="['/home']">
-            <div class="col-2 h-100 text-center" >
-                <h2>Home</h2>
-            </div>
-          </a>
-          <a class="" [routerLink]="['/certification']">
-            <div class="col-2 h-100 text-center" >
-                <h2>Certification</h2>
-            </div>
-          </a>
-          <a class="" [routerLink]="['/projects']">
-            <div class="col-2 h-100 text-center" >
-                <h2>Projects</h2>
+            <div class="col-2 h-100" >
+                <h2>Contact</h2>
             </div>
           </a>
         </div>
-      </div>
-      <div class="col-2">
-        <mat-slide-toggle class="slide-toggle" [checked]=checked (change)= "mudou()">
-          {{slide_Toggle_Message}}
-        </mat-slide-toggle>
       </div>
     </div>
 
