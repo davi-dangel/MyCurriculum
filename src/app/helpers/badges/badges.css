@@ -1,0 +1,10 @@
+:root{
+    --c-sharp-bg: #77f324;
+    --c-sharp-color: #000000;
+}
+
+.custom-badge{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0px;
+}

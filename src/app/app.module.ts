@@ -22,6 +22,13 @@ import {MatIconModule} from '@angular/material/icon';
 
 //#region External
 import { SidebarModule } from 'ng-sidebar';
+import { JsBadgeComponent } from './helpers/badges/js-badge/js-badge.component';
+import { TsBadgeComponent } from './helpers/badges/ts-badge/ts-badge.component';
+import { CssBadgeComponent } from './helpers/badges/css-badge/css-badge.component';
+import { PythonBadgeComponent } from './helpers/badges/python-badge/python-badge.component';
+import { HtmlBadgeComponent } from './helpers/badges/html-badge/html-badge.component';
+import { DotNetBadgeComponent } from './helpers/badges/dot-net-badge/dot-net-badge.component';
+import { CSharpBadgeComponent } from './helpers/badges/c-sharp-badge/c-sharp-badge.component';
 //#endregion
 
 @NgModule({
@@ -30,7 +37,14 @@ import { SidebarModule } from 'ng-sidebar';
     NavigationComponent,
     CertificationComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    JsBadgeComponent,
+    TsBadgeComponent,
+    CssBadgeComponent,
+    PythonBadgeComponent,
+    HtmlBadgeComponent,
+    DotNetBadgeComponent,
+    CSharpBadgeComponent
   ],
   imports: [
     BrowserModule,
