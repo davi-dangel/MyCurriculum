@@ -1,28 +1,64 @@
 <title>Home</title>
-<div class="container">
+<div class="container" style="margin-top: 50px;">
   <div class="row">
     <div class="col-md-12 col-xs-12 col-sm-12">
       <div class="container justify-content-center">
-        <mat-tab-group mat-align-tabs="center">
-            <mat-tab label="Sobre">
-                <h2 class="text-center">Sobre</h2>
-                <p> </p>
-            </mat-tab>
-            <mat-tab label="Experiência">
-              <h2 class="text-center">Experiência</h2>
-              <p> </p>
-            </mat-tab>
-            <mat-tab label="Tecnologias">
-              <h2 class="text-center">Tecnologias</h2>
-              <p> </p>
-            </mat-tab>
-            <mat-tab label="Projetos">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-7 col-sm-12 text-center">
+            <h1>Olá, me chamo Davi e sou desenvolvedor Web</h1>
+            <img class="profile-img mt-1 mb-4" src="assets\profile-foto.jpg" alt="">
+            <p class="justify">
+              Me chamo Davi, sou desenvolvedor de software e bastante empolgado com desenvolvimento Web e estou 
+              no último semestre do curso de Informática para Negócios da Fatec. Trabalho na área a pouco mais de
+              9 meses, mas faço pequenos projetos há 2 anos já.
+            </p>
+            <p>
+              Sou entusiasta do desenvolvimento web, mas estou sempre 
+              olhando em volta para ver o que há de novo e interessante na área. Gosto muito de estudar, aprender coisas novas e 
+              aprofundar meu conhecimento nas tecnologias que tenho mais familiaridade.
+            </p>
+            <p>
+              Acredito que a tecnologia pode melhorar a vida das pessoas, trazendo mais conforto e possibilidade para todos.
+            </p>
+            <p>
+              Além disso sou bastante interessado em literatura e teologia, sempre lendo algo a respeito ou juntando as duas áreas.
+              Estou aprendendo a andar de patins, curto assistir séries(quando consigo escolher uma, o que não é nada fácil haha),
+              ver filmes nos fins de semana. Gosto muito de cozinhar e acompanhar canais de culinária no YouTube.
+            </p>
+          </div>
+        </div>
+        <div class="container justify-content-center">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 col-sm-12 text-center">
+              <app-contact></app-contact>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container justify-content-center">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-sm-12 text-center">
+              <h2><a href="https://github.com/davi-dangel" target="_blank"><u> GitHub e Projetos</u></a></h2>
+              <div>
+                <img height="180em" src="https://github-readme-stats.vercel.app/api?username=davi-dangel&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+                <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=davi-dangel&layout=compact&langs_count=7&theme=dracula"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container justify-content-center">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-sm-12">
               <app-projects></app-projects>
-            </mat-tab>
-            <mat-tab label="Certificados">
-              <app-certification></app-certification>
-            </mat-tab>
-        </mat-tab-group>
+            </div>
+          </div>
+        </div> 
+
+          
+        
+        <!-- <app-skills style="margin-top: 30px;"></app-skills> -->
+        
+        <!-- <app-certification></app-certification> -->
     </div>
   </div>
 </div>

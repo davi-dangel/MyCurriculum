@@ -1,0 +1,19 @@
+:root{
+    --profile-img-size: 300px;
+}
+
+.progress-bar-cutomization{
+    margin-bottom: 16.5px;
+}
+
+.profile-img{
+    height: 230px;
+    width: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--body-color);
+    font-family: 'Lora', serif;
+}

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'c-sharp-badge',
   templateUrl: './c-sharp-badge.component.html',
-  styleUrls: ['./c-sharp-badge.component.css', '../badges.css']
+  styleUrls: ['./c-sharp-badge.component.css']
 })
 export class CSharpBadgeComponent implements OnInit {
 
