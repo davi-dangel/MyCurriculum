@@ -51,3 +51,7 @@ a{
 a :hover{
     color: gray;
 }
+
+.card-bg{
+    background-color: #fcf9ee;
+}
