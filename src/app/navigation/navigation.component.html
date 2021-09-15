@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <div class="collapse navbar-collapse justify-content-end">
+    <div class="collapse navbar-collapse d-flex">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" [routerLink]="['/home']">Home</a>
@@ -12,38 +12,18 @@
           <a class="nav-link active" [routerLink]="['/projects']">Projetos e GitHub</a>
         </li>
       </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" target="_blank" href="https://www.linkedin.com/in/davidangelribeiro/">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" target="_blank" href="https://github.com/davi-dangel">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" matTooltip="Enviar E-mail" id="email" href="mailto:contato@davidangel.blog.br">contato@davidangel.blog.br</a>
+          <!-- <mat-icon matTooltip="Copiar" class="mat-icon" (click)="copy(); openSnackBar()">content_copy</mat-icon> -->
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
-
-
-<!-- <header class="container">
-    <div class="row p-2">
-      <div class="col-2"></div>
-      <div class="col-8">
-        <div class="row justify-content-center">
-          <a class="" [routerLink]="['/home']">
-            <div class="col-2 h-100 text-center" >
-                <h2>Home</h2>
-            </div>
-          </a>
-          <a class="" [routerLink]="['/certification']">
-            <div class="col-2 h-100 text-center" >
-                <h2>Certification</h2>
-            </div>
-          </a>
-          <a class="" [routerLink]="['/projects']">
-            <div class="col-2 h-100 text-center" >
-                <h2>Projects</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-2">
-        <mat-slide-toggle class="slide-toggle" [checked]=checked (change)= "mudou()">
-          {{slide_Toggle_Message}}
-        </mat-slide-toggle>
-      </div>
-    </div>
-
-  </header> -->
