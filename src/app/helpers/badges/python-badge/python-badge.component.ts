@@ -1,3 +1,4 @@
+import { templateJitUrl } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,4 +13,7 @@ export class PythonBadgeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  shareTemplate(){
+    return '<python-badge></python-badge>'
+  }
 }

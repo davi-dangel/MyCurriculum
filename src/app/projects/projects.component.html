@@ -4,32 +4,25 @@
         <div class="col-md-10 col-sm-12">
             <div class="row " style="margin-top: 30px;">
                 <div class="col-12">
-                    <div class="card card-bg">
-                        <h2 class="card-header">MyCurriculum</h2>
+                    <div class="card card-bg mb-4 mt-0" *ngFor="let item of projetos">
+                        <h2 class="card-header">{{item.header}}</h2>
                         <div class="card-body">
-                            <h2 class="card-title">Aplicação front-end do meu portifólio</h2>
-                            <p class="card-text">Código do portifólio que você está acessando agora</p>
-                            <a href="https://github.com/davi-dangel/MyCurriculum" target="_blank" class="btn btn-primary">Ver no GitHub</a>
+                            <h2 class="card-title">{{item.titulo}}</h2>
+                            <p class="card-text">{{item.texto}}</p>
+                            <a href="{{item.link}}" target="_blank" class="btn btn-primary">Ver no GitHub</a>
                         </div>
-                        <div class="card-footer text-muted">Tecnologias:
-                            <html-badge></html-badge>
-                            <css-badge></css-badge>
-                            <ts-badge></ts-badge>
-                            <js-badge></js-badge>
-                            <angular-badge></angular-badge>
-                            <bootstrap-badge></bootstrap-badge>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="card card-bg mb-5">
-                        <h2 class="card-header">PyAssistence</h2>
-                        <div class="card-body">
-                            <h2 class="card-title">Assistente virtual em python</h2>
-                            <p class="card-text">Assistente virtual que possui várias funções(todas feitas em python) para me auxiliar</p>
-                            <a href="https://github.com/davi-dangel/PyAssistence" target="_blank" class="btn btn-primary">Ver no GitHub</a>
-                        </div>
-                        <div class="card-footer text-muted">Tecnologias:
-                            <python-badge></python-badge>
+                        <div class="card-footer text-muted" >Tecnologias:
+                            <c-sharp-badge *ngIf="setBadgeVisible(item, 'c_sharp')"></c-sharp-badge>
+                            <dot-net-badge *ngIf="setBadgeVisible(item, 'dot_net')"></dot-net-badge>
+                            <html-badge *ngIf="setBadgeVisible(item, 'html')"></html-badge>
+                            <css-badge *ngIf="setBadgeVisible(item, 'css')"></css-badge>
+                            <ts-badge *ngIf="setBadgeVisible(item, 'ts')"></ts-badge>
+                            <js-badge *ngIf="setBadgeVisible(item, 'js')"></js-badge>
+                            <jquery-badge *ngIf="setBadgeVisible(item, 'jquery')"></jquery-badge>
+                            <angular-badge *ngIf="setBadgeVisible(item, 'angular')"></angular-badge>
+                            <bootstrap-badge *ngIf="setBadgeVisible(item, 'bootstrap')"></bootstrap-badge>
+                            <python-badge *ngIf="setBadgeVisible(item, 'python')"></python-badge>
+                            <sql-badge *ngIf="setBadgeVisible(item, 'sql')"></sql-badge>
                         </div>
                     </div>
                 </div>
