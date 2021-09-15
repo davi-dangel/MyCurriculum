@@ -12,22 +12,21 @@
                             <a href="{{item.link}}" target="_blank" class="btn btn-primary">Ver no GitHub</a>
                         </div>
                         <div class="card-footer text-muted" >Tecnologias:
-                            <c-sharp-badge *ngIf="setBadgeVisible(item, 'c_sharp')"></c-sharp-badge>
-                            <dot-net-badge *ngIf="setBadgeVisible(item, 'dot_net')"></dot-net-badge>
-                            <html-badge *ngIf="setBadgeVisible(item, 'html')"></html-badge>
-                            <css-badge *ngIf="setBadgeVisible(item, 'css')"></css-badge>
-                            <ts-badge *ngIf="setBadgeVisible(item, 'ts')"></ts-badge>
-                            <js-badge *ngIf="setBadgeVisible(item, 'js')"></js-badge>
-                            <jquery-badge *ngIf="setBadgeVisible(item, 'jquery')"></jquery-badge>
-                            <angular-badge *ngIf="setBadgeVisible(item, 'angular')"></angular-badge>
-                            <bootstrap-badge *ngIf="setBadgeVisible(item, 'bootstrap')"></bootstrap-badge>
-                            <python-badge *ngIf="setBadgeVisible(item, 'python')"></python-badge>
-                            <sql-badge *ngIf="setBadgeVisible(item, 'sql')"></sql-badge>
+                            <c-sharp-badge *ngIf="setBadgeVisible(item.badges, 'c_sharp')"></c-sharp-badge>
+                            <dot-net-badge *ngIf="setBadgeVisible(item.badges, 'dot_net')"></dot-net-badge>
+                            <html-badge *ngIf="setBadgeVisible(item.badges, 'html')"></html-badge>
+                            <css-badge *ngIf="setBadgeVisible(item.badges, 'css')"></css-badge>
+                            <ts-badge *ngIf="setBadgeVisible(item.badges, 'ts')"></ts-badge>
+                            <js-badge *ngIf="setBadgeVisible(item.badges, 'js')"></js-badge>
+                            <jquery-badge *ngIf="setBadgeVisible(item.badges, 'jquery')"></jquery-badge>
+                            <angular-badge *ngIf="setBadgeVisible(item.badges, 'angular')"></angular-badge>
+                            <bootstrap-badge *ngIf="setBadgeVisible(item.badges, 'bootstrap')"></bootstrap-badge>
+                            <python-badge *ngIf="setBadgeVisible(item.badges, 'python')"></python-badge>
+                            <sql-badge *ngIf="setBadgeVisible(item.badges, 'sql')"></sql-badge>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div> 

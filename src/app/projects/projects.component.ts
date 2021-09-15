@@ -17,7 +17,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   setBadgeVisible(itemBadges: any, badge: string){
-    let hasBadge = itemBadges.badges.find((x: any) => x === badge);
+    let hasBadge = itemBadges.find((x: any) => x === badge);
     
     if(hasBadge) return true
   
