@@ -24,7 +24,7 @@ export class CertificationComponent implements OnInit {
       nome: "Certificado Iniciando com ASP .NET Core",
       imgSrc: "assets/Certificado_IniciandocomASP.NETCore.png",
       sobre: "Curso iniciante em ASP .NET Core que explica como ele funciona e ensina como trabalhar com Entity Framework.",
-      validacao: "https://desenvolvedor.io/curso/certificado/f9a5fc5f-9bcf-4308-bf17-b0bde1e78378"
+      validacao: "https://desenvolvedor.io/certificados/f0834242-1795-410d-b285-27be3cc63036"
     },
     {
       nome: "Testes de unidade e TDD com xUnit",
